@@ -1,11 +1,16 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.google.services)
+
+    id("kotlin-kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
     namespace = "com.example.e_commerceapps"
-    compileSdk = 34
+    compileSdk = 35
+
 
     defaultConfig {
         applicationId = "com.example.e_commerceapps"
@@ -33,6 +38,15 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildFeatures {
+        viewBinding = true
+    }
+    kapt {
+        correctErrorTypes = true
+    }
+
+
+
 }
 
 dependencies {
@@ -45,4 +59,30 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    // Hilt
+    implementation (libs.hilt.android)
+    kapt (libs.dagger.hilt.compiler)
+
+
+    // Retrofit
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
+
+    // Coroutines
+    implementation (libs.kotlinx.coroutines.android)
+
+    // Navigation
+    implementation (libs.androidx.navigation.fragment.ktx)
+    implementation (libs.androidx.navigation.ui.ktx)
+
+    // CardView
+    implementation(libs.androidx.cardview)
+
+    //RecyclerView
+    implementation(libs.androidx.recyclerview)
+
+    //firebase
+    implementation(platform(libs.firebase.bom))
+
 }
