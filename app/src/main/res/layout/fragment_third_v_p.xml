@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.screens.onboarding.ThirdVP">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/introTitleText"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/explore_your_true_style"
+        android:textSize="27sp" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/introDescText"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/relax_and_let_us_bring_the_style_to_you"
+        android:textSize="19sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/introFirstVP"
+        android:layout_width="290dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/intro_card_color"
+        android:layout_height="490dp"
+        android:elevation="36dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="13dp">
+
+        <ImageView
+            android:id="@+id/introThirdVPImage"
+            android:layout_width="289dp"
+            android:layout_height="465dp"
+            android:layout_gravity="center"
+            android:src="@drawable/vp3"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
