@@ -27,4 +27,12 @@
     <string name="forgot_password">Forgot Password?</string>
     <string name="forgot_dsc">Enter email associated with your account and we’ll send and email with intructions to reset your password</string>
     <string name="send_code">Send Code</string>
+    <string name="login">Login</string>
+    <string name="already_have_account">Already Have Account?</string>
+    <string name="sign_ups">SIGN UP</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="passwords">Password</string>
+    <string name="email_address">Email address</string>
+    <string name="enter_your_names">Enter your name</string>
+    <string name="create_n_nyour_account">Create\n\nyour account</string>
 </resources>
