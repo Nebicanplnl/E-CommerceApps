@@ -1,4 +1,4 @@
-package com.example.e_commerceapps
+package com.example.e_commerceapps.activities
 
 import android.os.Build
 import android.os.Bundle
@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
+import com.example.e_commerceapps.R
 import com.example.e_commerceapps.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -41,11 +42,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initView(){
-        enableEdgeToEdge()
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        enableEdgeToEdge()
+
     }
 }

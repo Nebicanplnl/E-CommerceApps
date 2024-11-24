@@ -12,4 +12,5 @@
     <color name="card4_bg">#B9AEB2</color>
     <color name="red">#F20C0C</color>
     <color name="cart_btn">#343434</color>
+    <color name="grey">#343434</color>
 </resources>
