@@ -85,4 +85,8 @@ dependencies {
     //firebase
     implementation(platform(libs.firebase.bom))
 
+    //sdp
+    implementation(libs.sdp.android)
+    implementation(libs.ssp.android)
+
 }

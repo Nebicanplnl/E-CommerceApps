@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bottom_sheet_bg">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password Change"
+        style="@style/SubtitleTextStyle"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/et_old_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Old Password"
+        android:background="@drawable/edit_text_bg"
+        android:padding="@dimen/_10sdp"
+        style="@style/HintTextStyle"/>
+
+    <TextView
+        android:id="@+id/tv_forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="@color/grey"
+        android:gravity="end"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Password"
+        android:background="@drawable/edit_text_bg"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/et_repeat_new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Repeat New Password"
+        style="@style/HintTextStyle"
+        android:background="@drawable/edit_text_bg"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btn_save_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE PASSWORD"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppinsr"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:padding="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+</LinearLayout>
