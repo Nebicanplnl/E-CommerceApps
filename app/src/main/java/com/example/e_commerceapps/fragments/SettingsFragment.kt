@@ -25,6 +25,7 @@ class SettingsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+
         binding.tvChangePassword.setOnClickListener {
             val bottomSheet = ChangePassBottomSheetFragment()
             bottomSheet.show(parentFragmentManager, "ChangePassBottomSheet")
