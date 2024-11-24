@@ -12,6 +12,8 @@ appcompat = "1.6.1"
 kotlinxCoroutinesAndroid = "1.7.3"
 material = "1.10.0"
 activity = "1.8.0"
+sdpAndroid = "1.0.6"
+sspAndroid = "1.0.6"
 constraintlayout = "2.1.4"
 firebase = "33.6.0"
 googleServices= "4.4.2"
@@ -36,6 +38,8 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid" }
+ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "sspAndroid" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 
 firebase-bom= {group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase"}
