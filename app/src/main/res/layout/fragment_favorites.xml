@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.screens.favorite.FavoritesFragment">
+
+
+   <TextView
+       android:id="@+id/favoritesTv1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Favorites"
+       android:textSize="24dp"
+       android:textStyle="bold"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       android:layout_marginTop="24dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:layout_constraintStart_toEndOf="@id/favoritesTv1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/ic_bell_icon"
+        android:layout_marginStart="12dp"/>
+
+    <TextView
+        android:id="@+id/favoriteFoundResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/favoritesTv1"
+        app:layout_constraintEnd_toStartOf="@id/favoritesTv1"
+        android:text="Found\n152 Result"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginTop="42dp"
+        />
+
+    <TextView
+        android:id="@+id/favoriteProducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorited Products"
+        app:layout_constraintStart_toStartOf="@id/favoriteFoundResult"
+        app:layout_constraintTop_toBottomOf="@id/favoriteFoundResult"
+        android:textSize="23sp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/favoriteProducts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/favoriteProducts"
+        android:text="Clear All"
+        android:textSize="23sp"
+        android:textStyle="italic"
+        android:layout_marginStart="24dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/favoritesRcView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/favoriteProducts"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
