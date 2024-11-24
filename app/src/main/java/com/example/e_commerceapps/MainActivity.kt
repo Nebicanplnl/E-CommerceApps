@@ -30,14 +30,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         initView()
 
-//        WindowCompat.setDecorFitsSystemWindows(window, false)
-//
-//        // WindowInsetsControllerCompat ile tam ekran modu
-//        val windowInsetsController = WindowInsetsControllerCompat(window, window.decorView)
-//        windowInsetsController.hide(WindowInsetsCompat.Type.systemBars())
-//        windowInsetsController.systemBarsBehavior =
-//            WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
-
         bottomNav = binding.bottomNavigationView
         navHostFragment = supportFragmentManager.findFragmentById(R.id.navHostFragment) as NavHostFragment
         bottomNav.setupWithNavController(navHostFragment.navController)

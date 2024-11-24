@@ -30,21 +30,19 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
-
+        android:background="@android:color/transparent"
+        style="@style/CustomTabLayout"
         android:layout_width="150dp"
         android:layout_height="48dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="24dp"
-        android:background="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/introVP"
         app:tabGravity="center"
-        app:tabIndicatorColor="@android:color/transparent"
         app:tabIndicatorHeight="4dp"
         app:tabMode="fixed"
-        app:tabSelectedTextColor="@android:color/transparent"
-        app:tabTextColor="@android:color/transparent" />
+         />
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/introVP"
