@@ -2,16 +2,11 @@ package com.example.e_commerceapps
 
 import android.os.Build
 import android.os.Bundle
-import android.view.View
-import android.view.WindowInsets
-import android.view.WindowInsetsController
 import androidx.activity.enableEdgeToEdge
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
-import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.core.view.WindowInsetsControllerCompat
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.e_commerceapps.databinding.ActivityMainBinding
