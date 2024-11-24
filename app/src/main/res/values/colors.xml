@@ -2,6 +2,14 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="red">#ef466f</color>
-    <color name="grey">#9B9B9B</color>
+    <color name="btn_bg">#FFFFFF40</color>
+    <color name="intro_color">#464447</color>
+    <color name="intro_card_color">#E7E8E9</color>
+    <color name="filter_color">#FAFAFA</color>
+    <color name="card1_bg">#A3A798</color>
+    <color name="card2_bg">#898280</color>
+    <color name="card3_bg">#44565C</color>
+    <color name="card4_bg">#B9AEB2</color>
+    <color name="red">#F20C0C</color>
+    <color name="cart_btn">#343434</color>
 </resources>

@@ -84,9 +84,8 @@ dependencies {
 
     //firebase
     implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.auth)
 
-    //sdp
-    implementation(libs.sdp.android)
-    implementation(libs.ssp.android)
-
+    //Material
+    implementation (libs.material.v160)
 }

@@ -1,5 +1,38 @@
 <resources>
     <string name="app_name">E-CommerceApps</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="cart">Cart</string>
+    <string name="favorites">Favirotes</string>
+    <string name="get_started">Get Started</string>
+    <string name="the_home_for_a_fashionista">The home for a fashionista</string>
+    <string name="welcome">Welcome</string>
+    <string name="discover_something_new">Discover something new</string>
+    <string name="special_new_arrivals_just_for_you">Special new arrivals just for you</string>
+    <string name="relax_and_let_us_bring_the_style_to_you">Relax and let us bring the style to you</string>
+    <string name="explore_your_true_style">Explore your true style</string>
+    <string name="update_trendy_outfit">Update trendy outfit</string>
+    <string name="favorite_brands_and_hottest_trends">Favorite brands and hottest trends</string>
+    <string name="create_your_account">Create\nyour account</string>
+    <string name="already_have_account_log_in">Already have account? Log in</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="confrim_password">Confrim password</string>
+    <string name="password">Password</string>
+    <string name="email_adress">Email adress</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="log_into_your_account">Log into\nyour account</string>
+    <string name="log_in">Log In</string>
+    <string name="don_t_have_an_account_sign_up">Don’t have an account?Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_dsc">Enter email associated with your account and we’ll send and email with intructions to reset your password</string>
+    <string name="send_code">Send Code</string>
+    <string name="login">Login</string>
+    <string name="already_have_account">Already Have Account?</string>
+    <string name="sign_ups">SIGN UP</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="passwords">Password</string>
+    <string name="email_address">Email address</string>
+    <string name="enter_your_names">Enter your name</string>
+    <string name="create_n_nyour_account">Create\n\nyour account</string>
 </resources>

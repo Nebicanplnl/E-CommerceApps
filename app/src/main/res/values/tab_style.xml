@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomTabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIndicatorColor">@android:color/transparent</item> <!-- Varsayılan çizgiyi gizle -->
+        <item name="tabBackground">@android:color/transparent</item>  <!-- Tab arka planını şeffaf yap -->
+        <item name="tabSelectedTextColor">@android:color/white</item> <!-- Seçili tab noktası -->
+        <item name="tabTextColor">@android:color/darker_gray</item> <!-- Diğer tablar -->
+    </style>
+
+
+</resources>
