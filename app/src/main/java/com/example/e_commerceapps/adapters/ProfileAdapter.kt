@@ -14,7 +14,7 @@ class ProfileAdapter(private val items: List<ProfileItem>) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProfileViewHolder {
         val binding = ItemLayoutUserInfoBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-        return ProfileViewHolder(binding)
+        return ProfileViewHolder(binding, onItemClick)
     }
 
     override fun onBindViewHolder(holder: ProfileViewHolder, position: Int) {
