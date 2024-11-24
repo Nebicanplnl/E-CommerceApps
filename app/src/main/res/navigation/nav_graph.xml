@@ -18,6 +18,7 @@
         android:id="@+id/splashFragment"
         android:name="com.example.e_commerceapps.ui.screens.splash.SplashFragment"
         android:label="fragment_splash"
+        android:theme="@style/SplashTheme"
         tools:layout="@layout/fragment_splash" >
         <action
             android:id="@+id/action_splashFragment_to_introFragment"
